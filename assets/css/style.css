@@ -11,6 +11,17 @@
   visibility: hidden;
 }
 
+.cats{
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cats img{
+  height: 40px;
+}
+
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 600px) {
   #card {
